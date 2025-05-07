@@ -1,0 +1,26 @@
+[project]
+name = "interview-task"
+version = "0.1.0"
+description = "Package contains the code for the data science interview task"
+authors = [
+    {name = "Ivaylo Stoyanov",email = "ivaylostoyanovvd@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.2.5,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "shap (>=0.47.2,<0.48.0)",
+    "optuna (>=4.3.0,<5.0.0)",
+    "xgboost (>=3.0.0,<4.0.0)",
+    "lightgbm (>=4.6.0,<5.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

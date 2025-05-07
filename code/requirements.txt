@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+shap
+optuna
+xgboost
+lightgbm
+fastapi
+# needed for reading excel files
+openpyxl

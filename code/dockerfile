@@ -1,0 +1,10 @@
+FROM python:latest
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+RUN python -m venv venv && source newenv/bin/activate && pip install -r requirements.txt
+
+CMD ["python", "main.py"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "80"]
